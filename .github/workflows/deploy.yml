@@ -23,6 +23,6 @@ jobs:
     - name: Upload Files to Storage
       run: |
         az storage blob upload-batch \
-        --account-name jamiustaticwebsitestore \
+        --account-name jamiu060cloudcostcal \
         --destination '$web' \
         --source .
